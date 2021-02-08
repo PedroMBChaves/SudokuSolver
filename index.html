@@ -1,0 +1,122 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sudoku</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Sudoku</h1>
+    </div>
+    <div class="tabuleiro">
+        <div id="linha1" class="linha">
+            <div id="l1col1" class="coluna"> <input  id="lin1col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col2" class="coluna"> <input  id="lin1col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col3" class="coluna"> <input  id="lin1col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col4" class="coluna"> <input  id="lin1col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col5" class="coluna"> <input  id="lin1col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col6" class="coluna"> <input  id="lin1col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col7" class="coluna"> <input  id="lin1col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col8" class="coluna"> <input  id="lin1col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l1col9" class="coluna"> <input  id="lin1col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 1 -->
+
+        <div id="linha2" class="linha">
+            <div id="l2col1" class="coluna"> <input  id="lin2col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col2" class="coluna"> <input  id="lin2col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col3" class="coluna"> <input  id="lin2col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col4" class="coluna"> <input  id="lin2col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col5" class="coluna"> <input  id="lin2col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col6" class="coluna"> <input  id="lin2col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col7" class="coluna"> <input  id="lin2col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col8" class="coluna"> <input  id="lin2col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l2col9" class="coluna"> <input  id="lin2col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 2 -->
+        <div id="linha3" class="linha">
+            <div id="l3col1" class="coluna"> <input  id="lin3col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col2" class="coluna"> <input  id="lin3col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col3" class="coluna"> <input  id="lin3col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col4" class="coluna"> <input  id="lin3col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col5" class="coluna"> <input  id="lin3col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col6" class="coluna"> <input  id="lin3col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col7" class="coluna"> <input  id="lin3col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col8" class="coluna"> <input  id="lin3col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l3col9" class="coluna"> <input  id="lin3col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 3 -->
+        <div id="linha4" class="linha">
+            <div id="l4col1" class="coluna"> <input  id="lin4col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col2" class="coluna"> <input  id="lin4col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col3" class="coluna"> <input  id="lin4col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col4" class="coluna"> <input  id="lin4col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col5" class="coluna"> <input  id="lin4col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col6" class="coluna"> <input  id="lin4col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col7" class="coluna"> <input  id="lin4col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col8" class="coluna"> <input  id="lin4col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l4col9" class="coluna"> <input  id="lin4col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 4 -->
+        <div id="linha5" class="linha">
+            <div id="l5col1" class="coluna"> <input  id="lin5col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col2" class="coluna"> <input  id="lin5col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col3" class="coluna"> <input  id="lin5col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col4" class="coluna"> <input  id="lin5col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col5" class="coluna"> <input  id="lin5col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col6" class="coluna"> <input  id="lin5col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col7" class="coluna"> <input  id="lin5col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col8" class="coluna"> <input  id="lin5col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l5col9" class="coluna"> <input  id="lin5col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 5 -->
+        <div id="linha6" class="linha">
+            <div id="l6col1" class="coluna"> <input  id="lin6col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col2" class="coluna"> <input  id="lin6col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col3" class="coluna"> <input  id="lin6col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col4" class="coluna"> <input  id="lin6col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col5" class="coluna"> <input  id="lin6col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col6" class="coluna"> <input  id="lin6col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col7" class="coluna"> <input  id="lin6col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col8" class="coluna"> <input  id="lin6col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l6col9" class="coluna"> <input  id="lin6col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 6 -->
+        <div id="linha7" class="linha">
+            <div id="l7col1" class="coluna"> <input  id="lin7col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col2" class="coluna"> <input  id="lin7col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col3" class="coluna"> <input  id="lin7col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col4" class="coluna"> <input  id="lin7col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col5" class="coluna"> <input  id="lin7col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col6" class="coluna"> <input  id="lin7col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col7" class="coluna"> <input  id="lin7col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col8" class="coluna"> <input  id="lin7col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l7col9" class="coluna"> <input  id="lin7col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 7 -->
+        <div id="linha8" class="linha">
+            <div id="l8col1" class="coluna"> <input  id="lin8col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col2" class="coluna"> <input  id="lin8col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col3" class="coluna"> <input  id="lin8col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col4" class="coluna"> <input  id="lin8col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col5" class="coluna"> <input  id="lin8col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col6" class="coluna"> <input  id="lin8col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col7" class="coluna"> <input  id="lin8col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col8" class="coluna"> <input  id="lin8col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l8col9" class="coluna"> <input  id="lin8col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 8 -->
+        <div id="linha9" class="linha">
+            <div id="l9col1" class="coluna"> <input  id="lin9col1" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col2" class="coluna"> <input  id="lin9col2" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col3" class="coluna"> <input  id="lin9col3" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col4" class="coluna"> <input  id="lin9col4" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col5" class="coluna"> <input  id="lin9col5" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col6" class="coluna"> <input  id="lin9col6" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col7" class="coluna"> <input  id="lin9col7" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col8" class="coluna"> <input  id="lin9col8" type="number" class="entrada" max="9" min="0" size="1"> </div>
+            <div id="l9col9" class="coluna"> <input  id="lin9col9" type="number" class="entrada" max="9" min="0" size="1"> </div>
+        </div> <!-- Fim Linha 9 -->
+
+    </div>
+    <div class="menu">
+        <button onclick="checkpuzzle()">Conferir</button>
+        <button onclick="Resolver()">Solucionar</button>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
